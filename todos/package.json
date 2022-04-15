@@ -1,0 +1,20 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "Module for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "keywords": [
+    "test",
+    "mocha",
+    "unit"
+  ],
+  "author": "Angky",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.1",
+    "request": "^2.88.2"
+  }
+}

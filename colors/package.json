@@ -1,0 +1,16 @@
+{
+  "name": "colors",
+  "version": "1.0.0",
+  "description": "Module for colors picking",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "palet",
+    "wonderful"
+  ],
+  "author": "Angky",
+  "license": "ISC"
+}

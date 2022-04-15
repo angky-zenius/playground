@@ -1,0 +1,22 @@
+{
+  "name": "playaround",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.2.0",
+    "graphql-resolvers": "^0.4.2",
+    "graphql-type-json": "^0.3.2",
+    "graphql-voyager": "^1.0.0-rc.31",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  }
+}

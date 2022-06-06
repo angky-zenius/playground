@@ -8,5 +8,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "axios": "^0.21.4",
+    "dotenv": "^8.2.0",
+    "fast-csv": "^4.3.6",
+    "graphql": "~14.6.0",
+    "graphql-request": "^3.7.0",
+    "imap-simple": "^5.1.0",
+    "json2csv": "^5.0.6",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.7.4",
+    "q": "^1.5.1",
+    "semver": "~6.3.0"
+  }
 }

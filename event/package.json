@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "firebase": "^9.8.2"
+    "firebase": "^9.8.2",
+    "moment": "^2.29.3",
+    "node-rdkafka": "^2.13.0"
   }
 }

@@ -8,13 +8,13 @@ const { getAuth, signInWithEmailAndPassword } = require("firebase/auth");
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDDEvlsM8lMMNlS1xMi9kpTxUvgPGHrNF8",
-  authDomain: "zenius-notification.firebaseapp.com",
-  projectId: "zenius-notification",
-  storageBucket: "zenius-notification.appspot.com",
-  messagingSenderId: "917764688812",
-  appId: "1:917764688812:web:6e6991c672674f8c590809",
-  measurementId: "G-KWFGSZZ70J"
+  apiKey: "AIzaSyASonW4BtUeFuDeoOonR7iCzfUArGXURZQ",
+  authDomain: "zentest-640a1.firebaseapp.com",
+  projectId: "zentest-640a1",
+  storageBucket: "zentest-640a1.appspot.com",
+  messagingSenderId: "78613539868",
+  appId: "1:78613539868:web:b7071e1801207d2c7e03d9",
+  measurementId: "G-99MYNY5KH0"
 };
 
 // Initialize Firebase
@@ -35,10 +35,9 @@ export declare interface User extends UserInfo {
 
 function testLogin() {
   const auth = getAuth();
-  signInWithEmailAndPassword(auth, "angky.putra@zeniuseducation.com", "p4ssw0rd")
+  signInWithEmailAndPassword(auth, "zenpro-notif-dispatcher@zentest-640a1.iam.gserviceaccount.com", "p4ssw0rd")
     .then((userCredential) => {
-      const emailVerified = userCredential.user.emailVerified;
-      console.log(user);
+      console.log(userCredential);
     })
     .catch((error) => {
       const errorCode = error.code;
